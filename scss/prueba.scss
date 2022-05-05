@@ -1,0 +1,38 @@
+$body: rgb(223, 222, 222);
+$size: 20px;
+$fondo-de-color: rgb(236, 165, 10);
+$ancho: 100%;
+$blue: #4285f4;
+$green: green;
+$h1Desktop: 25px;
+$h1Mobile: 18px;
+$parrafoDesktop: 16px;
+$parrafoMobile: 12px;
+$vista: 1024px;
+$tipo-de-letra: verdana;
+$alinear-al-centro: center;
+
+body{
+    background-color: $body;
+        
+}
+h1{
+    background-color: $green;
+}
+
+header{
+    background-color: $blue;
+    nav{
+        text-align: center;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            &:hover{
+                color: yellow;
+            }
+        }
+    }
+    div p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(46, 46, 10);
+    } 
+}
